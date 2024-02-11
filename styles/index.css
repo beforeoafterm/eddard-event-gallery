@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-default;
+  }
+}
+
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
   img[loading="lazy"] {
-    clip-path: inset(0.6px);
+    -webkit-clip-path: inset(0.6px);
+            clip-path: inset(0.6px);
   }
 }
