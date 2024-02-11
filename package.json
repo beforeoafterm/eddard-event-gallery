@@ -9,9 +9,10 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
-    "@next/font": "^14.1.0",
+    "classnames": "^2.5.1",
     "cloudinary": "^2.0.1",
     "eslint-config-next": "^14.1.0",
+    "framer-motion": "^11.0.3",
     "imagemin": "^8.0.1",
     "imagemin-jpegtran": "^7.0.0",
     "next": "latest",
