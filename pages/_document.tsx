@@ -23,7 +23,7 @@ class MyDocument extends Document {
             content="See pictures from Kirk's 7th Birthday Superhero Bash."
           />
         </Head>
-        <body className="bg-black antialiased">
+        <body className="antialiased">
           <Main />
           <NextScript />
         </body>
