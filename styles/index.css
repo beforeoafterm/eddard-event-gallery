@@ -9,8 +9,16 @@
 }
 
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
-  img[loading="lazy"] {
+  img[loading='lazy'] {
     -webkit-clip-path: inset(0.6px);
-            clip-path: inset(0.6px);
+    clip-path: inset(0.6px);
   }
+}
+
+.categoryButton {
+  @apply text-black font-display mx-2 transition-colors duration-300 hover:text-white/70;
+}
+
+.categoryButton.categoryButton___selected {
+  @apply text-white pointer-events-none;
 }
