@@ -10,7 +10,7 @@ class MyDocument extends Document {
             name="description"
             content="See pictures from Kirk's 7th Birthday Superhero Bash."
           />
-          <meta property="og:site_name" content="its-kirks-birthday-gallery.tioi.network" />
+          <meta property="og:site_name" content="nextjsconf-pics.vercel.app" />
           <meta
             property="og:description"
             content="See pictures from Kirk's 7th Birthday Superhero Bash."

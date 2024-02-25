@@ -39,11 +39,11 @@ const Home: NextPage = ({ categories, images }: {
         <title>Kirk's 7th Birthday Superhero Bash Photos</title>
         <meta
           property="og:image"
-          content="https://its-kirks-birthday-gallery.tioi.network/og-image.png"
+          content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="https://its-kirks-birthday-gallery.tioi.network/og-image.png"
+          content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
