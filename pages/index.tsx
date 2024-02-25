@@ -67,9 +67,10 @@ const Home: NextPage = ({ categories, images }: {
             <h1 className="mt-8 mb-4 text-2xl font-bold font-display tracking-widest">
               Kirk's 7th Birthday Superhero Bash Photos
             </h1>
-            <div className="">
+            <div>
               {categories.map((category) => (
                 <button
+                  key={category}
                   className={[
                     "categoryButton",
                     selectedCategory === category ? 'categoryButton___selected' : '',
